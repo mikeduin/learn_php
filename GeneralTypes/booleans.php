@@ -2,6 +2,6 @@
 
 $bool = true;
 
-$hasValue = 1234;
+$hasValue = [];
 
-var_dump($hasValue);
+var_dump((bool)$hasValue);
