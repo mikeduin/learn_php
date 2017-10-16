@@ -13,3 +13,8 @@ $authorsMulti = [
 ];
 
 print_r($authorsMulti['Male']['Mark Twain'][1]);
+
+// An important takeaway here is that you could NOT get this same result by using 
+// $authorsMulti['Male'][2][1], because "Mark Twain" is not actually indexed as the second
+// element in the array since its associative. In an associative array, you MUST refer to the key
+// by its actual key
